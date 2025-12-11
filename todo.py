@@ -12,6 +12,7 @@ def list_tasks():
         for i, task in enumerate(tasks, 1):
             print(f"{i}. {task}")
 
+
 def remove_task(index):
     if 0 < index <= len(tasks):
         removed = tasks.pop(index-1)
